@@ -1,0 +1,129 @@
+KEY-DOWN - QMK: KC_P9   Event key: 9           Code: Numpad9       KeyCode: 105
+KEY-DOWN - QMK: KC_U    Event key: u           Code: KeyU          KeyCode: 85
+KEY-DOWN - QMK: KC_QUOT Event key: '           Code: Quote         KeyCode: 222
+KEY-DOWN - QMK: KC_RBRC Event key: ]           Code: BracketRight  KeyCode: 221
+KEY-DOWN - QMK: KC_L    Event key: l           Code: KeyL          KeyCode: 76
+KEY-DOWN - QMK: KC_D    Event key: d           Code: KeyD          KeyCode: 68
+KEY-UP   - QMK: KC_P9   Event key: 9           Code: Numpad9       KeyCode: 105 in 527.970ms
+KEY-UP   - QMK: KC_U    Event key: u           Code: KeyU          KeyCode: 85 in 519.135ms
+KEY-UP   - QMK: KC_QUOT Event key: '           Code: Quote         KeyCode: 222 in 514.385ms
+KEY-UP   - QMK: KC_RBRC Event key: ]           Code: BracketRight  KeyCode: 221 in 504.945ms
+KEY-UP   - QMK: KC_L    Event key: l           Code: KeyL          KeyCode: 76 in 514.950ms
+KEY-UP   - QMK: KC_D    Event key: d           Code: KeyD          KeyCode: 68 in 509.745ms
+
+D3 input B0 output
+B0（19）为高电平（优联输入），短接地的时候会触发19列所有按键，短接D3（04）的时候会触发字母D
+罗技6键无冲
+
+
+单脚检测间隔		248Hz
+单脚电平持续		208kHz
+相邻两脚电平间隔	357kHz
+
+总持续时间			16kHz
+
+调用一次scan		6.8kHz
+最短中断事件		304kHz	403kHz
+
+
+
+375			23
+keyboard	16-18
+switch		1+1+2+1=5
+			7+2=9
+total		39-41
+			11-13-15-17
+
+l0x2
+Ultra-low-power platform
+1.65 V to 3.6 V power supply
+-40 to 125 °C temperature range
+0.27 μA Standby mode (2 wakeup pins)
+0.4 μA Stop mode (16 wakeup lines)
+0.8 μA Stop mode + RTC + 8 KB RAM retention
+88 μA/MHz in Run mode
+3.5 μs wakeup time (from RAM)
+5 μs wakeup time (from Flash memory)
+
+
+l0x3
+Ultra-low-power platform
+1.65 V to 3.6 V power supply
+-40 to 125 °C temperature range
+0.29 µA Standby mode (3 wakeup pins)
+0.43 µA Stop mode (16 wakeup lines)
+0.86 µA Stop mode + RTC + 20-Kbyte RAM retention
+Down to 93 µA/MHz in Run mode
+5 µs wakeup time (from Flash memory)
+41 µA 12-bit ADC conversion at 10 ksps
+
+l4
+Ultra-low-power mode: 8 nA with backup registers without real-time clock (5 wakeup pins)
+Ultra-low-power mode + RTC: 200 nA with backup registers (5 wakeup pins)
+Ultra-low-power mode + 8 Kbytes of RAM: 195 nA
+Ultra-low-power mode + 8 Kbytes of RAM + RTC: 340 nA
+Dynamic run mode: down to 28 μA/MHz
+Wake-up time: 5 μs
+
+l4x2
+Ultra-low-power with FlexPowerControl
+1.71 V to 3.6 V power supply
+-40 °C to 85/125 °C temperature range
+300 nA in VBAT mode: supply for RTC and 32x32-bit backup registers
+16 nA Shutdown mode (4 wakeup pins)
+32 nA Standby mode (4 wakeup pins)
+245 nA Standby mode with RTC
+0.7 µA Stop 2 mode, 0.95 µA with RTC
+79 µA/MHz run mode (LDO Mode)
+28 μA/MHz run mode (@3.3 V SMPS Mode)
+Batch acquisition mode (BAM)
+4 µs wakeup from Stop mode
+Brown out reset (BOR)
+Interconnect matrix
+
+l4x5
+Ultra-low-power with FlexPowerControl
+1.71 V to 3.6 V power supply
+-40 °C to 85/105/125 °C temperature range
+300 nA in VBAT mode: supply for RTC and 32x32-bit backup registers
+30 nA Shutdown mode (5 wakeup pins)
+120 nA Standby mode (5 wakeup pins)
+420 nA Standby mode with RTC
+1.1 μA Stop 2 mode, 1.4 μA Stop 2 with RTC
+100 μA/MHz run mode
+Batch acquisition mode (BAM)
+4 μs wakeup from Stop mode
+Brown out reset (BOR) in all modes except shutdown
+Interconnect matrix
+
+l452
+Ultra-low-power with FlexPowerControl
+1.71 V to 3.6 V power supply
+-40 °C to 85/125 °C temperature range
+145 nA in VBAT mode: supply for RTC and 32x32-bit backup registers
+22 nA Shutdown mode (5 wakeup pins)
+106 nA Standby mode (5 wakeup pins)
+375 nA Standby mode with RTC
+2.05 μA Stop 2 mode, 2.40 μA with RTC
+84 μA/MHz run mode (LDO Mode)
+36 μA/MHz run mode (@3.3 V SMPS Mode)
+Batch acquisition mode (BAM)
+4 μs wakeup from Stop mode
+Brown out reset (BOR)
+Interconnect matrix
+
+l433RC
+Ultra-low-power with FlexPowerControl
+1.71 V to 3.6 V power supply
+-40 °C to 85/105/125 °C temperature range
+200 nA in VBAT mode: supply for RTC and 32x32-bit backup registers
+8 nA Shutdown mode (5 wakeup pins)
+28 nA Standby mode (5 wakeup pins)
+280 nA Standby mode with RTC
+1.0 μA Stop 2 mode, 1.28 μA with RTC
+84 μA/MHz run mode (LDO Mode)
+36 μA/MHz run mode (@3.3 V SMPS Mode)
+Batch acquisition mode (BAM)
+4 μs wakeup from Stop mode
+Brown out reset (BOR)
+Interconnect matrix
